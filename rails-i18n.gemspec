@@ -19,9 +19,8 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = '>= 1.3.5'
 
   s.add_dependency('i18n', '~> 0.6')
-  s.add_dependency('railties', '>= 4.0')
-  s.add_development_dependency "railties", "= 4.0.4"
-  s.add_development_dependency "rspec-rails", "= 2.14.2"
+  s.add_dependency('railties', '= 4.1.4')
+  s.add_development_dependency "rspec-rails", "~> 3.0"
   s.add_development_dependency "i18n-spec", "= 0.4.0"
   s.add_development_dependency "spork", "= 1.0.0rc3"
   s.add_development_dependency 'i18n-tasks', '~> 0.3.6'
